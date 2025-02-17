@@ -336,33 +336,6 @@ class RokuRemote(QMainWindow):
         row_bh_layout.addWidget(home_btn, alignment=Qt.AlignRight)
         layout.addWidget(row_bh, alignment=Qt.AlignCenter)
 
-        ## Nav
-        #nav_widget = QWidget()
-        #nav_layout = QVBoxLayout(nav_widget)
-        #nav_layout.setSpacing(5)
-        #nav_layout.setContentsMargins(0, 0, 0, 0)
-#
-        #up_btn = self.create_button("▲", "/keypress/up")
-        #nav_layout.addWidget(up_btn, alignment=Qt.AlignCenter)
-#
-        #middle_row = QWidget()
-        #middle_row_layout = QHBoxLayout(middle_row)
-        #middle_row_layout.setSpacing(5)
-        #middle_row_layout.setContentsMargins(0, 0, 0, 0)
-#
-        #left_btn  = self.create_button("◀", "/keypress/left")
-        #ok_btn    = self.create_button("OK", "/keypress/select")
-        #right_btn = self.create_button("▶", "/keypress/right")
-        #middle_row_layout.addWidget(left_btn, alignment=Qt.AlignLeft)
-        #middle_row_layout.addWidget(ok_btn, alignment=Qt.AlignCenter)
-        #middle_row_layout.addWidget(right_btn, alignment=Qt.AlignRight)
-        #nav_layout.addWidget(middle_row)
-#
-        #down_btn = self.create_button("▼", "/keypress/down")
-        #nav_layout.addWidget(down_btn, alignment=Qt.AlignCenter)
-#
-        #layout.addWidget(nav_widget, alignment=Qt.AlignCenter)
-
         dpad = DPadCrossWidget(self)
         layout.addWidget(dpad, alignment=Qt.AlignCenter)
 
