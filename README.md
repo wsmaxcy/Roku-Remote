@@ -1,4 +1,4 @@
-# Roku Remote (PyQt5)
+# Roku Remote
 
 A visually polished and functional Roku remote written in Python (PyQt5). This project features:
 
@@ -38,7 +38,6 @@ A visually polished and functional Roku remote written in Python (PyQt5). This p
 
    ```bash
    git clone https://github.com/YOUR_USERNAME/roku-remote-pyqt.git
-   cd roku-remote-pyqt
     ```
 
 2. **Install dependencies** (preferably in a virtual environment):
@@ -83,7 +82,7 @@ python remote.py
 ---
 ## Screenshot
 
-
+![Screenshot](https://github.com/wsmaxcy/Roku-Remote/blob/main/img/screenshot.png)
 
 ---
 ## License
